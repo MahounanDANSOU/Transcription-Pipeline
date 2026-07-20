@@ -1,0 +1,10 @@
+# Dépendances de l'environnement PRINCIPAL (celui qui lance Orchestrateur_GUI.py).
+# Les environnements Faster-Whisper et WhisperX ont leurs propres fichiers :
+# fw_requirements.txt et wx_requirements.txt.
+#
+# Installation (à faire pour CHAQUE interpréteur Python utilisé pour lancer le GUI) :
+#   python -m pip install -r orchestrateur_requirements.txt
+
+psycopg2-binary>=2.9   # connexion PostgreSQL/Supabase
+requests>=2.31         # client API NAS (nas_client.py)
+psutil>=5.9            # pause/reprise des sous-processus de transcription

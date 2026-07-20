@@ -1,0 +1,19 @@
+{
+  "db_host": "your-postgres-host.example.com",
+  "db_port": "5432",
+  "db_name": "postgres",
+  "db_user": "your_db_user",
+  "db_password": "",
+  "db_sslmode": "require",
+
+  "hf_token": "",
+  "fw_python": "Faster-Whisper/fw_env/Scripts/python.exe",
+  "wx_python": "WhisperX/wx_env/Scripts/python.exe",
+  "local_model_dir": "",
+
+  "nas_api_url": "https://your-nas-api.example.com",
+  "nas_username": "",
+  "nas_password": "",
+
+  "google_drive_api_key": ""
+}

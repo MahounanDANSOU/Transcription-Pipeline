@@ -1,0 +1,35 @@
+# Fichiers Python générés et caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Environnements virtuels
+fw_env/
+wx_env/
+venv/
+.venv/
+
+# Fichiers de runtime, caches de modèles et résultats de transcription
+# (entièrement générés par Orchestrateur_GUI.py à l'exécution)
+runtime_db_gui/
+audio_tmp/
+
+# Dossier de modèles téléchargés
+faster_whisper_models/
+
+# Dépendances clonées (Faster-Whisper / WhisperX, à cloner séparément — voir README)
+Faster-Whisper/
+WhisperX/
+
+# Fichiers d'IDE et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets et config locale — copie config.example.json en config.json et remplis-le
+config.json
